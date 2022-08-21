@@ -1,6 +1,6 @@
 local fonts = require("fonts")
-local keys = require("keys")
 local tabcolors = require("tabcolors")
+local keys = require("keys")
 
 local function shallow_merge(result, ...)
     for _, t in pairs({ ... }) do

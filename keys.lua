@@ -17,6 +17,7 @@ M.keys = {
     { key = "n", mods = "LEADER", action = wezterm.action.ActivateTabRelative(1) },
     { key = "p", mods = "LEADER", action = wezterm.action.ActivateTabRelative(-1) },
     { key = "q", mods = "LEADER", action = wezterm.action.CloseCurrentTab({ confirm = true }) },
+    { key = "l", mods = "LEADER", action = wezterm.action.EmitEvent("toggle-ligature") },
 }
 
 return M
